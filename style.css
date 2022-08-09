@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/*CALCULATOR'S BODY*/
-
 .container{
     display: flex;
     justify-content: center;
     align-items: center;    
 }
+
+/*CALCULATOR'S BODY*/
 
 .body-style{
     height: 400px;
@@ -44,6 +44,18 @@
 .buttons{
     width: 60px;
     height: 60px;
-    margin: 2px 0.5px;
+    margin: 2px 1px;
     border-style: solid;
+    border-color: black;
+    background-color: black;
+    color:rgb(224, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons:hover{
+    background-color:rgb(175, 172, 172);
+    border-color: rgb(175, 172, 172);
+    cursor: pointer;
 }
