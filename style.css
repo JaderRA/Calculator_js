@@ -27,7 +27,8 @@
 
 .container-tela{
     width: 250px;
-    height: 40px;    
+    height: 40px;
+    border-style: solid;    
 }
 
 /*BUTTONS*/
